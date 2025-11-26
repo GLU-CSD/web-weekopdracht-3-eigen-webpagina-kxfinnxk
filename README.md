@@ -1,4 +1,4 @@
-# Title of your project
+# Entity OS
 
 Description of your project.
 
