@@ -24,13 +24,11 @@
 
     <div class="container ">
         <div class="row">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+<!-- navbar begins here -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <img src="./assets/favicon.png" alt="Bootstrap" width="30" height="24">
     <a class="navbar-brand">Entity OS</a>
-
-
-    </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
@@ -39,30 +37,59 @@
         <li class="nav-item">
           <a class="nav-link" href="./project.html">Projects</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./info.html">Info</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./login.html">Login</a>
+        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Profiles
           </a>
+          
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="./entity.html">Entity</a></li>
-            <li><a class="dropdown-item" href="./silver.html">Silver</a></li>
-            <li><a class="dropdown-item" href="./writer.html">Writer</a></li>
+            <li><a class="dropdown-item" href="./acces.html">The Entity</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="./error.html">Silver Knight</a></li>
+            <li><a class="dropdown-item" href="./error.html">The Writer</a></li>
+            <li><a class="dropdown-item" href="./error.html">Black</a></li>
+            <li><a class="dropdown-item" href="./error.html">Blue</a></li>
           </ul>
         </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li>
-
-</button>
       </ul>
-        <button type="button" class="btn btn-primary position-relative">
-  Inbox
-  <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-    1
-    <span class="visually-hidden">unread messages</span>
-  </span>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-primary" type="submit">Search</button>
       </form>
-
     </div>
+  </div>
+</nav>
+</div>
+<!-- navbar ends here -->
+
+
+    <div class="row">
+
+        <div class="empty"></div>
+    </div>
+    <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8">
+                
+           <div class="card text-center">
+            <div class="card-header">
+                ERROR!
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">No access to this page</h5>
+                <p class="card-text">You do not have the sufficient rank to view the contents on this page log in and try again.</p>
+            
+                <a href="./login.html" class="btn btn-primary">Login</a>
+            </div>
+            <div class="card-footer text-body-secondary">
+
+            </div>
+            </div>
+        </div>
+        </div>
